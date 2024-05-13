@@ -1,0 +1,65 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+%%%%%%%%% PAPER TYPE  - PLEASE UPDATE FOR FINAL VERSION
+% \usepackage{cvpr}              % To produce the CAMERA-READY version
+\usepackage[cvprfinal]{cvpr}      % To produce the REVIEW version
+\usepackage{hyperref}
+% \usepackage[pagenumbers]{cvpr} % To force page numbers, e.g. for an arXiv version
+
+% Import additional packages in the preamble file, before hyperref
+\input{preamble}
+
+% It is strongly recommended to use hyperref, especially for the review version.
+% hyperref with option pagebackref eases the reviewers' job.
+% Please disable hyperref *only* if you encounter grave issues, 
+% e.g. with the file validation for the camera-ready version.
+%
+% If you comment hyperref and then uncomment it, you should delete *.aux before re-running LaTeX.
+% (Or just hit 'q' on the first LaTeX run, let it finish, and you should be clear).
+\definecolor{cvprblue}{rgb}{0.21,0.49,0.74}
+\usepackage[pagebackref,breaklinks,colorlinks,citecolor=cvprblue]{hyperref}
+
+%%%%%%%%% PAPER ID  - PLEASE UPDATE
+\def\paperID{*****} % *** Enter the Paper ID here
+\def\confName{CVPR}
+\def\confYear{2024}
+
+%%%%%%%%% TITLE - PLEASE UPDATE
+\title{Visual Question Answering Using BLIP}
+
+%%%%%%%%% AUTHORS - PLEASE UPDATE
+\author{
+Shreyas Kabra\\
+2021563\\
+{\tt\small shreyas21563@iiitd.ac.in}
+\and
+Ritwik Harit\\
+2021557\\
+{\tt\small ritwik21557@iiitd.ac.in}
+\and
+Vasan Vohra\\
+2021572\\
+{\tt\small vasan21572@iiitd.ac.in}
+}
+
+\begin{document}
+\maketitle
+\input{sec/0_abstract}    
+\input{sec/1_intro}
+\input{sec/2_Relatedwork}
+\input{sec/3_DatasetDescription}
+\input{sec/4_EDA}
+\input{sec/5_EvalMetric}
+\input{sec/8_ExpSetup}
+\input{sec/6_Analysis}
+\input{sec/7_commentary}
+{
+    \small
+    \bibliographystyle{ieeenat_fullname}
+    \bibliography{main}
+}
+
+% WARNING: do not forget to delete the supplementary pages from your submission 
+% \input{sec/X_suppl}
+
+\end{document}
