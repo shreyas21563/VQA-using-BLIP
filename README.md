@@ -23,20 +23,11 @@ The project directory contains the following files and folders:
 
 We utilized the following datasets for evaluating the BLIP model:
 
-1. **VQA v2.0 Training**: 
-   - **# Images**: 82,783
-   - **# Questions**: 443,757
-   - **# Answers**: 4,437,570
-
-2. **VQA v2.0 Validation**:
-   - **# Images**: 40,504
-   - **# Questions**: 214,354
-   - **# Answers**: 2,143,540
-
-3. **DAQUAR**:
-   - **# Images**: 1,449
-   - **# Questions**: 5,674
-   - **# Answers**: 5,674
+| Dataset             | # Images | # Questions | # Answers     |
+|---------------------|----------|-------------|---------------|
+| **VQA v2.0 Training**   | 82,783   | 443,757     | 4,437,570     |
+| **VQA v2.0 Validation** | 40,504   | 214,354     | 2,143,540     |
+| **DAQUAR**              | 1,449    | 5,674       | 5,674         |
 
 ## Evaluation Metrics
 
