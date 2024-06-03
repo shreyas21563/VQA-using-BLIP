@@ -114,13 +114,8 @@ Ensure you have the following installed:
     ```bash
     pip install -r requirements.txt
     ```
-
-4. Run the Jupyter notebooks:
-    ```bash
-    jupyter notebook
-    ```
-
-5. Open `Evaluation.ipynb` and `Visualization.ipynb` to run the evaluation and visualization code.
+    
+4. Open `Evaluation.ipynb` and `Visualization.ipynb` to run the evaluation and visualization code.
 
 ## Authors
 
@@ -129,20 +124,7 @@ Ensure you have the following installed:
 - Vasan Vohra
 
 ## References
-1. Junnan Li, Dongxu Li, Caiming Xiong, and Steven Hoi. Blip:
- Bootstrapping language-image pre-training for unified vision
-language understanding and generation. In International con
-ference on machine learning, pages 12888–12900. PMLR,
- 2022.
-2. Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina
- Toutanova.
- Bert:
- Pre-training of deep bidirectional
- transformers for language understanding. arXiv preprint
- arXiv:1810.04805, 2018.
-3. Mateusz Malinowski and Mario Fritz. A multi-world ap
-proach to question answering about real-world scenes based
- on uncertain input. Advances in neural information process
-ing systems, 27, 2014.
-4. George A Miller. Wordnet: a lexical database for english.
- Communications of the ACM, 38(11):39–41, 1995
+1. Junnan Li, Dongxu Li, Caiming Xiong, and Steven Hoi. Blip: Bootstrapping language-image pre-training for unified vision language understanding and generation. In International conference on machine learning, pages 12888–12900. PMLR, 2022.
+2. Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805, 2018.
+3. Mateusz Malinowski and Mario Fritz. A multi-world approach to question answering about real-world scenes based on uncertain input. Advances in neural information processing systems, 27, 2014.
+4. George A Miller. Wordnet: a lexical database for english. Communications of the ACM, 38(11):39–41, 1995
