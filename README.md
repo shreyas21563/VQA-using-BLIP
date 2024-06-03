@@ -49,7 +49,7 @@ We utilized the following datasets for evaluating the BLIP model:
 |--------------------------|----------|-------------|--------------|-------|
 | **VQA v2.0 Training**    | 82,783   | 443,757     | 4,437,570    | [VQA v2.0 Training](https://visualqa.org/download.html) |
 | **VQA v2.0 Validation**  | 40,504   | 214,354     | 2,143,540    | [VQA v2.0 Validation](https://visualqa.org/download.html) |
-| **DAQUAR**               | 1,449    | 5,674       | 5,674        | [DAQUAR]([https://datasets.d2.mpi-inf.mpg.de/daquar/](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/visual-turing-challenge)) |
+| **DAQUAR**               | 1,449    | 5,674       | 5,674        | [DAQUAR](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/visual-turing-challenge) |
 
 ## Evaluation Metrics
 
