@@ -102,7 +102,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/shreyas21563/VQA-using-BLIP
     ```
 
 2. Navigate to the project directory:
@@ -129,6 +129,20 @@ Ensure you have the following installed:
 - Vasan Vohra
 
 ## References
-
-1. Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv preprint arXiv:1810.04805, 2018.
-2. Junnan Li, Dongxu Li, Caiming Xiong, and Steven Hoi. BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation. In International conference on machine learning, pages 12888–12900
+1. Junnan Li, Dongxu Li, Caiming Xiong, and Steven Hoi. Blip:
+ Bootstrapping language-image pre-training for unified vision
+language understanding and generation. In International con
+ference on machine learning, pages 12888–12900. PMLR,
+ 2022.
+2. Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina
+ Toutanova.
+ Bert:
+ Pre-training of deep bidirectional
+ transformers for language understanding. arXiv preprint
+ arXiv:1810.04805, 2018.
+3. Mateusz Malinowski and Mario Fritz. A multi-world ap
+proach to question answering about real-world scenes based
+ on uncertain input. Advances in neural information process
+ing systems, 27, 2014.
+4. George A Miller. Wordnet: a lexical database for english.
+ Communications of the ACM, 38(11):39–41, 1995
