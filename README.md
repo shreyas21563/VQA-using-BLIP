@@ -15,7 +15,7 @@ The project directory contains the following files and folders:
 - `README.md` - This README file.
 - `Report.pdf` - Detailed project report.
 - `Slides.pptx` - Presentation slides summarizing the project.
-- `Visualization.ipynb` - Jupyter notebook for visualizing the results.
+- `Visualization.ipynb` - Jupyter notebook for visualizing the datasets.
 - `VQA_v2_Training/` - Contains the VQA training dataset.
 - `VQA_v2_Val/` - Contains the VQA validation dataset.
 
