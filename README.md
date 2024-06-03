@@ -81,44 +81,9 @@ We used a diverse set of evaluation metrics to assess the model's performance, e
 | VQA v2.0 Validation | 84.73     |
 | DAQUAR              | -         |
 
-## Exploratory Data Analysis
-
-### Question Length Distribution
-- **VQA v2**: Majority of questions consist of 4 to 7 words.
-- **DAQUAR**: Questions are generally longer, ranging from 6 to 11 words.
-
-### Answer Length Distribution
-- Majority of answers across all datasets consist of 1 or 2 words.
-
-### Question Type Distribution
-- **VQA v2**: Predominantly questions starting with "how many," "is the," and "what".
-- **DAQUAR**: Frequently begins with "what is on the," "what is the," and "what is".
-
 ## Experimental Setup
 
-The VQA v2.0 dataset was divided into parts to handle its large size. The training set was divided into 10 parts, and the validation set into 2 parts, to facilitate parallel processing. The DAQUAR dataset was small enough to process as a whole.
-
-## Analysis
-
-### Accuracy
-- **Case 1**: Predicted "trash can" vs. ground truth "garbage bin" - 0 accuracy despite semantic similarity.
-- **Case 2**: Predicted "blue chair" vs. ground truth "chair" - 0 accuracy despite more detailed answer.
-
-### BLEU Score
-- **Case 1**: 0 BLEU score due to lack of n-gram overlaps.
-- **Case 2**: 0.5 BLEU score due to small degree of overlap.
-
-### BERT Score
-- **Case 1**: High semantic similarity with a BERT Precision score of 0.90.
-- **Case 2**: High semantic similarity with a BERT Precision score of 0.83.
-
-### WUPS Score
-- **Case 1**: 0.76 at 0 threshold, 0.0076 at 0.9 threshold.
-- **Case 2**: 0.11 at 0 threshold, 0.011 at 0.9 threshold.
-
-### VQA Accuracy
-- **Case 1**: 0.67 due to matching 2 out of 10 available answers.
-- **Case 2**: 0.33 due to matching 1 out of 10 available answers.
+The VQA v2.0 datasets was divided into parts to handle its large size. The training set was divided into 10 parts, and the validation set into 2 parts, to facilitate parallel processing. The DAQUAR dataset was small enough to process as a whole.
 
 ## Conclusion
 
