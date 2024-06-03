@@ -14,6 +14,7 @@ The project directory contains the following files and folders:
 - `LatexCode/` - Contains LaTeX code used for the report.
 - `README.md` - This README file.
 - `Report.pdf` - Detailed project report.
+- `requirements.txt` - File listing the required Python packages.
 - `Slides.pptx` - Presentation slides summarizing the project.
 - `Visualization.ipynb` - Jupyter notebook for visualizing the datasets.
 - `VQA_v2_Training/` - Contains the VQA training dataset.
@@ -31,13 +32,15 @@ We utilized the following datasets for evaluating the BLIP model:
 
 ## Evaluation Metrics
 
-We used a diverse set of evaluation metrics to assess the model's performance, each offering unique insights into its capabilities. Below are the metrics used:
+We used a diverse set of evaluation metrics to assess the model's performance, each offering unique insights into its capabilities. Their explaination can be found in the report. Below are the metrics used:
 
-1. **Accuracy**: The proportion of correctly predicted instances out of all instances.
-2. **BLEU Score**: Measures the geometric average of the modified n-gram precisions, adjusted for brevity.
-3. **BERT Score**: Uses pre-trained contextual embeddings from BERT to match words in candidate and reference sentences by cosine similarity.
-4. **WUPS Score**: Calculates the similarity between two words based on their longest common subsequence in the taxonomy tree.
-5. **VQA Score**: Assesses the correspondence between the model’s response and all potential answers provided for a given question.
+1. **Accuracy**
+2. **BLEU Score**
+3. **BERT Score**
+4. **WUPS Score**
+5. **VQA Score**
+
+
 
 ## Results
 
