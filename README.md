@@ -1,5 +1,36 @@
 # Visual Question Answering Using BLIP
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Project Structure](#project-structure)
+- [Datasets](#datasets)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Results](#results)
+  - [Accuracy](#accuracy)
+  - [BLEU Scores](#bleu-scores)
+  - [BERT Scores](#bert-scores)
+  - [WUPS Scores](#wups-scores)
+  - [VQA Scores](#vqa-scores)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+  - [Question Length Distribution](#question-length-distribution)
+  - [Answer Length Distribution](#answer-length-distribution)
+  - [Question Type Distribution](#question-type-distribution)
+- [Experimental Setup](#experimental-setup)
+- [Analysis](#analysis)
+  - [Accuracy](#accuracy-analysis)
+  - [BLEU Score](#bleu-score-analysis)
+  - [BERT Score](#bert-score-analysis)
+  - [WUPS Score](#wups-score-analysis)
+  - [VQA Accuracy](#vqa-accuracy-analysis)
+- [Conclusion](#conclusion)
+- [How to Use](#how-to-use)
+  - [Prerequisites](#prerequisites)
+  - [Running the Evaluation](#running-the-evaluation)
+- [Authors](#authors)
+- [References](#references)
+
+
 ## Project Overview
 
 This project evaluates the performance of the BLIP (Bootstrapping Language-Image Pre-training) model for the Visual Question Answering (VQA) task. We performed inference using a pretrained BLIP model on three datasets: VQA v2.0 training, VQA v2.0 validation, and DAQUAR. The model was pretrained on both the VQA v2.0 training and validation datasets but not on the DAQUAR dataset. We analyzed the model's performance using various evaluation metrics and documented our findings in this project.
