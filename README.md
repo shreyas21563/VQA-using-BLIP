@@ -120,7 +120,7 @@ The BLIP model shows high performance on the VQA v2 datasets, with good precisio
 Ensure you have the following installed:
 - Python 3.x
 - Jupyter Notebook
-- Required Python packages (can be found in `requirements.txt` if available)
+- Required Python packages
 
 ### Running the Evaluation
 
